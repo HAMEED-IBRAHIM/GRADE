@@ -109,19 +109,20 @@ GRADE/
 │
 ├── 📂 StudentGradeTracker/          ← Java Console App
 │   ├── Student.java                  Student model (fields, getters, grade calc)
-│   ├── StudentGradeTracker.java      Main app (menu, ArrayList, all features)
-│   ├── Student.class                 Compiled bytecode
-│   └── StudentGradeTracker.class     Compiled bytecode
+│   └── StudentGradeTracker.java      Main app (menu, ArrayList, all features)
 │
 ├── 📂 grade-web/                    ← Web App (localhost)
 │   ├── index.html                    Main HTML page (sidebar + 5 sections)
 │   ├── style.css                     Dark glassmorphism design system
 │   ├── app.js                        All JS logic + PDF export (jsPDF)
 │   ├── SimpleServer.java             Java HTTP server (no Node required!)
-│   ├── SimpleServer.class            Compiled server
-│   └── START.bat                     One-click Windows launcher
+│   └── START.bat                     One-click Windows launcher for web app
 │
-└── README.md                        This file
+├── ⚡ RUN_CONSOLE.bat                One-click launcher for Java Console App
+├── ⚡ START_WEB.bat                  One-click launcher for Web App
+├── 📜 LICENSE                        MIT License
+├── 🙈 .gitignore                     Git ignore for compiled classes and OS files
+└── 📖 README.md                      Project documentation with full details
 ```
 
 ---
@@ -315,14 +316,6 @@ All **25 mandatory test cases** passed:
 | Average | 80.00 | ✅ 80.00 |
 | Highest | 90 (Arun) | ✅ Correct |
 | Lowest | 70 (Rahul) | ✅ Correct |
-
----
-
-## ⚠️ Limitations
-
-- **In-memory only** — data is lost when the app closes (no database/file persistence)
-- **Single session** — no login, no multi-user support
-- **Web app needs Java** — the local server requires Java 17+ (no Node.js needed)
 
 ---
 

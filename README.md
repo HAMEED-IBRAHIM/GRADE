@@ -319,14 +319,6 @@ All **25 mandatory test cases** passed:
 
 ---
 
-## ⚠️ Limitations
-
-- **In-memory only** — data is lost when the app closes (no database/file persistence)
-- **Single session** — no login, no multi-user support
-- **Web app needs Java** — the local server requires Java 17+ (no Node.js needed)
-
----
-
 ## 📜 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
